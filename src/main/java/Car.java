@@ -24,7 +24,7 @@ public class Car implements Comparable<Car> {
 
     @Override
     public int compareTo(Car car2) {
-        return this.yearOfManufacture-car2.yearOfManufacture;
+        return this.yearOfManufacture - car2.yearOfManufacture;
 //        if (this.engineCapacity == car2.getEngineCapacity()) {
 //            return 0;
 //        } else if ((this.engineCapacity < car2.getEngineCapacity())) {
